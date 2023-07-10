@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script src="p5.min.js"></script>
+<script src="p5.dom.min.js"></script>
+<script src="p5.sound.min.js"></script>
+<script src="p5.play.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyD5YAGTHC__4AHzsDsLWn3Sx40NshvTeaQ",
+  authDomain: "redsocial-41f49.firebaseapp.com",
+  databaseURL: "https://redsocial-41f49-default-rtdb.firebaseio.com",
+  projectId: "redsocial-41f49",
+  storageBucket: "redsocial-41f49.appspot.com",
+  messagingSenderId: "1077982465507",
+  appId: "1:1077982465507:web:eb17cb56458b100f58e4d6"
+};
+firebase.initializeApp(firebaseConfig)
+</script>
+
+</head>
+<body>
+    <script src="estado_juego.js"></script>
+    <script src="form_inicio_sesion.js"></script>
+    <script src="jugador.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
